@@ -1,0 +1,6 @@
+{
+  "encryptionKeys": {
+    "type": "string",
+    "default": "{}"
+  }
+}

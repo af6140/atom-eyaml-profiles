@@ -1,0 +1,19 @@
+{
+  "name": "atom-eyaml-profiles",
+  "main": "./lib/atom-eyaml-profiles",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-eyaml-profiles:toggle"
+  },
+  "repository": "https://github.com/atom/atom-eyaml-profiles",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-forge": "^0.7.1"
+  }
+}
