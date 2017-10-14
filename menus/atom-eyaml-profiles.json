@@ -12,6 +12,10 @@
       {
         "label": "Eyaml encrypt selection",
         "command": "atom-eyaml-profiles:encrypt-selection"
+      },
+      {
+        "label": "Eyaml decrypt selection",
+        "command": "atom-eyaml-profiles:decrypt-selection"
       }
     ]
   },
