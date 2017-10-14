@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-eyaml-profiles:toggle"
+    "ctrl-alt-e": "atom-eyaml-profiles:toggle"
   }
 }
