@@ -11,9 +11,9 @@ This plugin allows you setup multiple public/private key pairs and change the se
 
 It's inspired by the `atom-hiera-eyaml` plugin which support create key pairs but do not support multiple key profiles.
 
-<h3> Configuration
+#### Configuration
 
-+ encryptionKeys:
+* encryptionKeys:
 The encryption keys available in json format.
 
 ```json
