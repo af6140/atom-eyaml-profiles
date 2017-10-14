@@ -7,7 +7,7 @@ The `eyaml` files are wildly used with `puppet` `hiera` as a data backend contai
 
 `eyaml` files are yaml files with filed value encrypted with PKCS7 message format.
 
-This plugin allows you setup multiple public/private key pairs and change the selected ones on the fly and using selected keys to decrypt/encrypt values.
+This plugin allows you setup multiple public/private key pairs(`profiles`). Profile can be changed on the fly and the corresponding keys are used to decrypt/encrypt text.
 
 It's inspired by the `atom-hiera-eyaml` plugin which support create key pairs but do not support multiple key profiles.
 
