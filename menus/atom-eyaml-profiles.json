@@ -2,10 +2,6 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-eyaml-profiles",
-        "command": "atom-eyaml-profiles:toggle"
-      },
-      {
         "label": "Set eyaml profile",
         "command": "atom-eyaml-profiles:profile"
       },
@@ -24,7 +20,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-eyaml-profiles",
+          "label": "Eyaml Profiles",
           "submenu": [
             {
               "label": "Toggle",
