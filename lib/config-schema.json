@@ -2,5 +2,9 @@
   "encryptionKeys": {
     "type": "string",
     "default": "{}"
+  },
+  "defaultProfile": {
+    "type": "string",
+    "default": "default"
   }
 }
