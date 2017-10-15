@@ -9,7 +9,7 @@ The `eyaml` files are wildly used with `puppet` `hiera` as a data backend contai
 
 This plugin allows you setup multiple public/private key pairs(`profiles`). Profile can be changed on the fly and the corresponding keys are used to decrypt/encrypt text.
 
-It's inspired by the `atom-hiera-eyaml` plugin which support create key pairs but do not support multiple key profiles.
+It's inspired by the `atom-hiera-eyaml` plugin which support create key pairs but do not support multiple key profiles. It does not require you to have `hiera-eyaml` ruby program installed like `atom-hiera-eyaml`. But it does not help you generate encryption keys.
 
 #### Configuration
 
