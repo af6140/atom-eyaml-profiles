@@ -1,12 +1,12 @@
 {
-  "name": "atom-eyaml-profiles",
-  "main": "./lib/atom-eyaml-profiles",
+  "name": "eyaml-profiles",
+  "main": "./lib/eyaml-profiles",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "eyaml support pkcs7 encryption for yaml file, with key profiles.",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-eyaml-profiles:toggle"
+    "atom-workspace": "eyaml-profiles:toggle"
   },
   "repository": "https://github.com/atom/atom-eyaml-profiles",
   "license": "MIT",

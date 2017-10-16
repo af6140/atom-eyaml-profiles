@@ -3,15 +3,15 @@
     "atom-text-editor": [
       {
         "label": "Set eyaml profile",
-        "command": "atom-eyaml-profiles:profile"
+        "command": "eyaml-profiles:showprofile"
       },
       {
         "label": "Eyaml encrypt selection",
-        "command": "atom-eyaml-profiles:encrypt-selection"
+        "command": "eyaml-profiles:encrypt-selection"
       },
       {
         "label": "Eyaml decrypt selection",
-        "command": "atom-eyaml-profiles:decrypt-selection"
+        "command": "eyaml-profiles:decrypt-selection"
       }
     ]
   },
@@ -24,7 +24,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "atom-eyaml-profiles:toggle"
+              "command": "eyaml-profiles:toggle"
             }
           ]
         }
