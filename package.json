@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "eyaml-profiles:toggle"
   },
-  "repository": "https://github.com/atom/atom-eyaml-profiles",
+  "repository": "https://github.com/af6140/atom-eyaml-profiles",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
