@@ -11,6 +11,10 @@ This plugin allows you setup multiple public/private key pairs(`profiles`). Prof
 
 It's inspired by the `atom-hiera-eyaml` plugin which support create key pairs but do not support multiple key profiles. It does not require you to have `hiera-eyaml` ruby program installed like `atom-hiera-eyaml`. But it does not help you generate encryption keys.
 
+#### Installation #####
+
+After installation, you may have to isntall pakcage dependencies by activate command palette and type `u` `p` `d` `u`.
+
 #### Activtion ####
 
 The plugin is disabled by default, using keymap `ctl-alt-e` to enable. After it's activated, a status message `eyaml-profies:profileName` will be displayed at the left side of the status bar.
