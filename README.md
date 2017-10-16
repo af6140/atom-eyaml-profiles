@@ -23,7 +23,7 @@ The plugin is disabled by default, using keymap `ctl-alt-e` to enable. After it'
 
 * encryptionKeys:
 The encryption keys available in json format.
-* defaultProfile
+* defaultProfile:
 The default set of keys used, default to `default`.
 
 ```json
