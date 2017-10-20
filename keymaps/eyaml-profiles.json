@@ -1,5 +1,9 @@
 {
   "atom-workspace": {
-    "ctrl-alt-e": "eyaml-profiles:toggle"
+    "ctrl-alt-e": "eyaml-profiles:toggle",
+    "ctrl-alt-z": "eyaml-profiles:showprofile"
+  },
+  "atom-text-editor" : {
+    "ctrl-alt-r": "eyaml-profiles:reveal"
   }
 }

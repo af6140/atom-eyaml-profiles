@@ -12,6 +12,10 @@
       {
         "label": "Eyaml decrypt selection",
         "command": "eyaml-profiles:decrypt-selection"
+      },
+      {
+        "label": "Eyaml reveal selection",
+        "command": "eyaml-profiles:reveal"
       }
     ]
   },
