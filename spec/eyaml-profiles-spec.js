@@ -15,28 +15,19 @@ describe('EyamlProfiles', () => {
     activationPromise = atom.packages.activatePackage('eyaml-profiles');
   });
 
-  describe('when the eyaml-profiles:profile event is triggered', () => {
-    it('hides and shows the profile panel', () => {
-      // Before the activation event the view is not on the DOM, and no panel
-      // has been created
-      expect(workspaceElement.querySelector('.eyaml-profiles')).not.toExist();
+  describe('when the eyaml-profiles:toggle event is triggered', () => {
+    it('enable the plugin', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'eyaml-profiles:profile');
+      atom.commands.dispatch(workspaceElement, 'eyaml-profiles:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.eyaml-profiles')).toExist();
-
-        let eyamlProfilesActiveProfileElement = workspaceElement.querySelector('.active_profiles');
-        expect(eyamlProfilesActiveProfileElement).toExist();
-
-        let eyamlProfilesActiveProfilePanel = atom.workspace.panelForItem(eyamlProfilesActiveProfileElement);
-        expect(eyamlProfilesActiveProfilePanel.isVisible()).toBe(true);
+        
       });
     });
   });
