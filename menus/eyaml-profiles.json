@@ -27,7 +27,7 @@
           "label": "Eyaml Profiles",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Enable",
               "command": "eyaml-profiles:toggle"
             }
           ]
