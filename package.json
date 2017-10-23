@@ -1,7 +1,7 @@
 {
   "name": "eyaml-profiles",
   "main": "./lib/eyaml-profiles",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "eyaml support pkcs7 encryption for yaml file, with key profiles.",
   "keywords": [],
   "activationCommands": {
